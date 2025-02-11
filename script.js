@@ -6,7 +6,7 @@ squares.forEach(square => {
     const icon = square.querySelector(".line img");
     answer.classList.toggle("active");
     icon.src = answer.classList.contains("active")
-      ? "/assets/images/icon-minus.svg"
-      : "/assets/images/icon-plus.svg";
+      ? "./assets/images/icon-minus.svg"
+      : "./assets/images/icon-plus.svg";
   });
 });
